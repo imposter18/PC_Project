@@ -1,0 +1,36 @@
+{
+  "name": "pc_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imposter18/PC_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imposter18/PC_Project/issues"
+  },
+  "homepage": "https://github.com/imposter18/PC_Project#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.4",
+    "cssnano": "^5.0.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.36.0",
+    "webpack-stream": "^6.1.2"
+  }
+}
