@@ -59,3 +59,238 @@ header {
   background-color: #fb8f1d;
   color: #fff;
 }
+
+.a-section {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 189px;
+  margin-top: 72px;
+  // grid-template-areas:
+  //   "title pic pic"
+  //   "form pic pic"
+  //   "form pic pic";
+}
+
+.a-section__title {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-top: -19px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.a-section__form {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-top: -59px;
+}
+
+.a-section__pic {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-left: -17px;
+}
+.a-form__title {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 22px;
+}
+.a-form_style {
+  margin-top: 11px;
+}
+.a-form_style select {
+  width: 220px;
+  height: 52px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  font-family: "Inter" "sans-serif";
+  font-weight: 400;
+  padding-left: 31px;
+  appearance: none;
+  background: url("../assets/img/Vector.png") no-repeat right;
+  background-position-x: calc(100% - 29px);
+}
+
+.a-form__select {
+  margin-right: 26px;
+  margin-top: 35px;
+}
+
+.a-form__button {
+  width: 180px;
+  height: 52px;
+  margin-top: 50px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 44px;
+}
+
+.b-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  margin-top: 270px;
+  margin-left: 189px;
+}
+
+.b-section__pic {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin-left: -50px;
+  margin-top: 16px;
+}
+.b-section__content {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin-top: 83px;
+  margin-left: 6px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.text__content {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+}
+.b-content__text {
+  margin-top: -11px;
+}
+.b-content__titlte {
+  margin-top: 20px;
+}
+
+.button-orange {
+  background-color: #fb8f1d;
+  color: #fff;
+  border-radius: 8px;
+  border: #fb8f1d;
+}
+
+.b-button {
+  width: 164px;
+  height: 48px;
+  margin-top: 39px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.c-section {
+  margin-left: 239px;
+  margin-top: 261px;
+}
+
+.c-gallery {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 286px 286px 286px 286px;
+}
+
+.c-gallery__item {
+  position: relative;
+  margin-top: 27px;
+  img {
+    background: linear-gradient(
+      360deg,
+      #032204 -26.8%,
+      #032204 -26.8%,
+      rgba(3, 31, 4, 0.920415) -26.8%,
+      rgba(3, 29, 4, 0.855404) -26.8%,
+      rgba(0, 0, 0, 0) 61.11%
+    );
+    border-radius: 8px;
+  }
+}
+
+.c-about-card {
+  background-color: #fff;
+  width: 120px;
+  height: 56px;
+  border-radius: 0px 6px 0px 0px;
+  position: absolute;
+  top: 276px;
+}
+.c-section__title {
+  display: inline-block;
+}
+
+.c-section__onen-modal {
+  display: inline;
+}
+.c-about-card__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 12px;
+}
+.c-about-card__text {
+  color: #b8becd;
+  font-family: Inter;
+}
+.c-section__onen-modal {
+  margin-left: 676px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  color: #fb8f1d;
+  img {
+    margin-left: 10px;
+  }
+}
+.d-section {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-left: 240px;
+  margin-top: 200px;
+}
+.button__download {
+  width: 164px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.d-section__content {
+  margin-top: 159px;
+}
+.d-content__text {
+  margin-top: -10px;
+}
+.button__download {
+  margin-top: 39px;
+  margin-left: -2px;
+}
+.d-section__pic {
+  margin-left: -84px;
+  margin-top: 37px;
+}
