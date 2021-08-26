@@ -98,7 +98,7 @@ function buildSomething() {
     .pipe(plumber({ errorHandler }))
     .pipe(dest('build/'));
 }
-exports.buildSomething = buildSomething
+// exports.buildSomething = buildSomething
 
  
 function clearBuild() {
